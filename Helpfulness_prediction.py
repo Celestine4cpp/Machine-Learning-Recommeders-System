@@ -12,7 +12,6 @@ def readGz(f):
   for l in gzip.open(f):
     yield eval(l)
 
-    
 training_rate=[]
 training_set=[]
 allHelpful_train = []
