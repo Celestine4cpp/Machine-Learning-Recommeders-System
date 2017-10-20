@@ -11,7 +11,6 @@ def readGz(f):
   for l in gzip.open(f):
     yield eval(l)
 
-
 test_set=[]
 training_set=[]
 allRatings_train = []
