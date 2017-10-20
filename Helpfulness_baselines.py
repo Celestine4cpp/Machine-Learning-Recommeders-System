@@ -1,6 +1,7 @@
 import gzip
 from collections import defaultdict
 
+
 def readGz(f):
   for l in gzip.open(f):
     yield eval(l)
