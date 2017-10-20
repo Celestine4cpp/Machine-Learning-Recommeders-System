@@ -8,6 +8,7 @@ def parseData(fname):
   for l in urllib.urlopen(fname):
     yield eval(l)
 
+    
 print "Reading data..."
 data = list(parseData("http://jmcauley.ucsd.edu/cse255/data/amazon/book_descriptions_50000.json"))
 print "done"
