@@ -11,6 +11,7 @@ print "Reading data..."
 data = list(parseData("http://jmcauley.ucsd.edu/cse255/data/beer/beer_50000.json"))
 print "done"
 
+
 def feature(datum):
   feat = [1]
   return feat
